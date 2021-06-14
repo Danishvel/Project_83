@@ -105,6 +105,6 @@ function my_mousemove(e)
     console.log("last_X = " + last_X + "last_Y = " + last_Y);
 }
 
-function cle(){
-    ctx.clearRect(0, 0, ctx.canvas.width, ctx.canvas.height);
+function clearArea(){
+    ctx.clearRect(0, 0, ctx.canvas.height, ctx.canvas.width);
 }
